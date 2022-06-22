@@ -1,0 +1,11 @@
+<h2>Products Page</h2>
+
+<div>
+  <img style="width: 100%;" src="{{ products.imageUrl }}" alt="">
+  <h3>{{ products.name }}</h3>
+  <h4>{{ products.price | currency }}</h4>
+  <p>{{ products.description }}</p>
+  <p>{{ products.quality }}</p>
+
+  <button routerLink="/completed">Buy</button>
+</div>

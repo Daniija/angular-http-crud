@@ -1,0 +1,40 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.title {
+  position: relative;
+  z-index: 1000;
+  color: white;
+  top: 30rem;
+}
+
+.title h1 {
+  font-size: 10rem;
+}
+
+.contact-info {
+  font-size: 25px;
+}
+
+.bg-img img {
+  position: relative;
+  width: 100%;
+  bottom: 48px;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 623px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+td {
+  padding-right: 8px;
+}
